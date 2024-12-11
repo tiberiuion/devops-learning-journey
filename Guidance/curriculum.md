@@ -1,5 +1,6 @@
 # DevOps and Cybersecurity Learning Curriculum
-This curriculum is divided into stages, focusing on foundational knowledge, practical skills, and real-world application. The timeline assumes 10–15 hours of study per week, but you can adjust it to fit your schedule.
+
+This curriculum is designed to take you from foundational knowledge to real-world application in both DevOps and cybersecurity. It assumes 10–15 hours of study per week but can be adjusted to fit your schedule. Document your progress and projects in your Git repository for best results.
 
 ---
 
@@ -7,22 +8,22 @@ This curriculum is divided into stages, focusing on foundational knowledge, prac
 
 ### Week 1-2: Linux Basics
 - **Learn:**
-    - Navigation (file system, permissions, users).
-    - Shell scripting basics.
+  - File navigation (file system, permissions, users).
+  - Shell scripting basics.
 - **Practice:**
-    - Automate tasks with Bash (e.g., create a backup script).
+  - Automate tasks with Bash (e.g., create a backup script).
 - **Resources:**
-    - [Linux Journey](https://linuxjourney.com).
-    - “The Linux Command Line” (book).
+  - [Linux Journey](https://linuxjourney.com)
+  - *The Linux Command Line* (book).
 
 ### Week 3-4: Networking Basics
 - **Learn:**
-    - Networking concepts: IP, DNS, firewalls.
-    - Tools: SSH, ping, traceroute.
+  - Networking concepts: IP, DNS, firewalls.
+  - Tools: SSH, ping, traceroute.
 - **Practice:**
-    - Set up and connect to a remote Linux server.
+  - Set up and connect to a remote Linux server.
 - **Resources:**
-    - [Networking Fundamentals Course (YouTube)](https://www.youtube.com/results?search_query=networking+basics).
+  - [Networking Fundamentals Course (YouTube)](https://www.youtube.com/results?search_query=networking+basics).
 
 ---
 
@@ -30,63 +31,63 @@ This curriculum is divided into stages, focusing on foundational knowledge, prac
 
 ### Month 1: Git and CI/CD
 - **Learn:**
-    - Git advanced usage (rebasing, resolving conflicts).
-    - CI/CD concepts (build, test, deploy).
+  - Git advanced usage (rebasing, resolving conflicts).
+  - CI/CD concepts (build, test, deploy).
 - **Practice:**
-    - Set up a GitHub Actions workflow for a front-end app.
+  - Set up a GitHub Actions workflow for a front-end app.
 - **Resources:**
-    - [GitHub Actions Docs](https://docs.github.com/en/actions).
+  - [Pro Git Book](https://git-scm.com/book/en/v2)
+  - [GitHub Actions Documentation](https://docs.github.com/en/actions).
 
 ### Month 2: Containers (Docker)
 - **Learn:**
-    - Create and manage containers, Docker Compose.
+  - Docker concepts: images, containers, volumes, networks.
+  - Docker Compose basics.
 - **Practice:**
-    - Dockerize a web app and deploy it locally.
+  - Dockerize a web app and deploy it locally.
 - **Resources:**
-    - [Docker Curriculum](https://docker-curriculum.com).
+  - [Docker Curriculum](https://docker-curriculum.com).
 
-### Month 3: Infrastructure as Code
+### Month 3: Infrastructure as Code (IaC)
 - **Learn:**
-    - Ansible (configuration management).
-    - Terraform (provisioning).
+  - Terraform (provisioning).
+  - Ansible (configuration management).
 - **Practice:**
-    - Deploy a VM on AWS using Terraform.
+  - Deploy a VM on AWS using Terraform and configure it with Ansible.
 - **Resources:**
-    - [Terraform Tutorials](https://developer.hashicorp.com/terraform/tutorials).
+  - [Terraform Tutorials](https://developer.hashicorp.com/terraform/tutorials).
 
-### Month 4: Kubernetes
+### Month 4: Kubernetes Basics
 - **Learn:**
-    - Core concepts: Pods, Deployments, Services.
+  - Core concepts: Pods, Deployments, Services.
+  - Basic YAML configuration.
 - **Practice:**
-    - Deploy and scale a Dockerized app on Kubernetes.
+  - Deploy and scale a Dockerized app on Kubernetes.
 - **Resources:**
-    - [Kubernetes Basics (katacoda)](https://www.katacoda.com/courses/kubernetes).
+  - [Kubernetes Basics (Katacoda)](https://www.katacoda.com/courses/kubernetes).
 
 ### Month 5-6: Cloud Computing
 - **Learn:**
-    - Core AWS services: EC2, S3, IAM, CloudFormation.
-    - Cloud security basics.
+  - Core AWS services: EC2, S3, IAM, CloudFormation.
+  - Cloud security basics.
 - **Practice:**
-    - Host a web app in AWS and secure it with IAM policies.
+  - Host a web app on AWS and secure it with IAM policies.
 - **Resources:**
-    - [AWS Free Tier](https://aws.amazon.com/free).
+  - [AWS Free Tier](https://aws.amazon.com/free).
 
 ---
 
 ## Stage 3: Real-World Projects (2-3 Months)
 
-### Project Ideas:
+### Suggested Projects:
 1. **Pipeline Automation:**
-    - Build a CI/CD pipeline for a front-end app with GitHub Actions.
-
+  - Build a CI/CD pipeline for a front-end app using GitHub Actions.
 2. **Infrastructure Deployment:**
-    - Use Terraform to provision a web app and connect it to a database.
-
+  - Use Terraform to provision a web app and connect it to a database.
 3. **Kubernetes Application:**
-    - Deploy a scalable Node.js app on Kubernetes.
-
+  - Deploy a scalable Node.js app on Kubernetes.
 4. **Cloud Hosting:**
-    - Host and secure a full-stack app on AWS using Ansible and Terraform.
+  - Host and secure a full-stack app on AWS using Ansible and Terraform.
 
 ---
 
@@ -94,46 +95,52 @@ This curriculum is divided into stages, focusing on foundational knowledge, prac
 
 ### Month 1: Cybersecurity Fundamentals
 - **Learn:**
-    - CIA Triad (Confidentiality, Integrity, Availability).
-    - Common vulnerabilities (OWASP Top 10).
+  - CIA Triad (Confidentiality, Integrity, Availability).
+  - Common vulnerabilities (OWASP Top 10).
 - **Practice:**
-    - Analyze vulnerabilities in a sample app.
+  - Analyze vulnerabilities in a sample app.
 - **Resources:**
-    - [OWASP Top 10](https://owasp.org).
+  - [OWASP Top 10](https://owasp.org).
 
 ### Month 2: Security Tools
 - **Learn:**
-    - Tools like Trivy (container scanning), Burp Suite (web app testing).
+  - Tools like Trivy (container scanning), Burp Suite (web app testing).
 - **Practice:**
-    - Scan a Dockerized app for vulnerabilities.
+  - Scan a Dockerized app for vulnerabilities.
 - **Resources:**
-    - [Burp Suite Community Tutorials (YouTube)](https://www.youtube.com/results?search_query=burp+suite+tutorial).
+  - [Burp Suite Community Tutorials (YouTube)](https://www.youtube.com/results?search_query=burp+suite+tutorial).
 
 ### Month 3: Secure Cloud
 - **Learn:**
-    - Cloud security: IAM best practices, VPCs, logging.
+  - Cloud security: IAM best practices, VPCs, logging.
 - **Practice:**
-    - Secure an AWS S3 bucket and monitor access logs.
+  - Secure an AWS S3 bucket and monitor access logs.
 - **Resources:**
-    - AWS Security Essentials (AWS Training).
+  - [AWS Security Essentials](https://aws.amazon.com/training).
 
 ---
 
 ## Stage 5: Advanced Topics and Certifications (Ongoing)
 
-### Certifications (Optional):
+### Advanced Topics:
+- **Monitoring and Observability:**
+  - Tools: Prometheus, Grafana.
+  - Practice: Monitor an application’s metrics and logs.
+- **Advanced Kubernetes:**
+  - Concepts: Helm, operators, ingress controllers.
+  - Practice: Manage a complex Kubernetes deployment.
+- **Cloud Automation:**
+  - Tools: AWS CLI, Azure CLI, Google Cloud SDK.
+  - Practice: Automate cloud deployments with scripts.
+
+### Suggested Certifications:
 1. **DevOps:**
-    - AWS Certified DevOps Engineer
-    - CKAD (Certified Kubernetes Application Developer)
-
+  - AWS Certified DevOps Engineer.
+  - CKAD (Certified Kubernetes Application Developer).
 2. **Security:**
-    - CompTIA Security+
-    - AWS Security Specialty
+  - CompTIA Security+.
+  - AWS Security Specialty.
 
-### Resources for Ongoing Learning:
+### Ongoing Learning Resources:
 - [TryHackMe](https://tryhackme.com) for hands-on security labs.
 - [Katacoda](https://katacoda.com) for cloud and DevOps practice.
-
----
-
-This curriculum is modular, so you can adapt it based on your pace and interests. Document your learning and projects in your Git repository for the best results.
